@@ -5,7 +5,7 @@ import org.kde.plasma.components 3.0 as PlasmaComponents
 
 Item {
     id: repr_compact
-    property int iconSize: 0
+    property int iconSize: 64
 
     property var batteryLevels: {
         "left": 0,
@@ -26,6 +26,7 @@ Item {
     }
 
     PlasmaCore.ToolTipArea {
+        id: toolTipArea
         anchors.fill: parent
         mainText: i18n("AirPods Battery Status")
         subText: i18n("L: %1% | R: %2% | C: %3%", batteryLevels.left, batteryLevels.right, batteryLevels.case)

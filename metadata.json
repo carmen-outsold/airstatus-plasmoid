@@ -1,0 +1,22 @@
+{
+  "KPackageStructure": "Plasma/Applet",
+  "KPlugin": {
+    "Authors": [
+      {
+        "Email": "mail@nomail.com",
+        "Name": "carmen-outsold"
+      }
+    ],
+    "Category": "Utilities",
+    "Description": "Plasmoid to view AirPods battery status.",
+    "Icon": "face-smile",
+    "Id": "com.github.carmen-outsold.airstatus",
+    "License": "GPLv3",
+    "Name": "AirStatus Plasmoid",
+    "Version": "1.0",
+    "EnabledByDefault": true
+  },
+  "X-Plasma-API-Minimum-Version": "6.0",
+  "X-Plasma-NotificationArea": "true",
+  "X-Plasma-NotificationAreaCategory": "Hardware"
+}

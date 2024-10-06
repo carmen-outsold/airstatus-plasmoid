@@ -20,8 +20,7 @@ Item {
         icon.height: iconSize
         display: PlasmaComponents.AbstractButton.IconOnly
         onClicked: {
-            console.log("Button clicked, expanding plasmoid")
-            plasmoid.expanded = !plasmoid.expanded
+            root.expanded = !root.expanded
         }
         z: 1
     }

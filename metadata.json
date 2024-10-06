@@ -8,7 +8,7 @@
       }
     ],
     "Category": "Utilities",
-    "Description": "Plasmoid to view AirPods battery status.",
+    "Description": "Plasmoid for viewing AirPods battery status.",
     "Icon": "face-smile",
     "Id": "com.github.carmen-outsold.airstatus",
     "License": "GPLv3",

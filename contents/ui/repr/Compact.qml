@@ -33,5 +33,10 @@ Item {
         active: true
         interactive: false
         z: 0
+
+        Component.onCompleted: {
+            root.toolTipMainText = toolTipArea.mainText
+            root.toolTipSubText = toolTipArea.subText
+        }
     }
 }

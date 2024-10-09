@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>assets/airpods-case-black.svg</file>
+        <file>assets/airpods-case-white.svg</file>
+        <file>assets/airpods-pair-black.svg</file>
+        <file>assets/airpods-pair-white.svg</file>
+        <file>assets/airpods-bud-left-black.svg</file>
+        <file>assets/airpods-bud-right-black.svg</file>
+        <file>assets/airpods-bud-left-white.svg</file>
+        <file>assets/airpods-bud-left-black.svg</file>
+    </qresource>
+</RCC>
